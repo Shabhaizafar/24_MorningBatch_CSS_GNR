@@ -1,0 +1,37 @@
+=> Web Development : 
+
+1. HTML : Hyper Text Markup Language
+          - Create a Structure 
+
+2. CSS  : cascading Style Sheet 
+          - Design a Structure
+
+3. JS   : Javascript
+          - Functionality 
+
+
+=> What a CSS : 
+- CSS stands for cascading Style Sheet.
+                         (design)(document/file)
+
+-> Attractive Look.
+-> Loader Fast.
+design : css  
+html : create  
+
+browser : load > html   css=X
+
+
+Version of CSS : (Advantage/disAdvantage)
+CSS ,CSS2 , CSS3 (use)
+
+=> Type Of CSS : 
+=> How to Implement CSS in a HTML File? 
+There are Three Types.
+    1) Inline CSS 
+    2) Internal CSS 
+    3) External CSS 
+
+
+Note : 
+we can use HTML without CSS. but we cann't use CSS  without HTML.
