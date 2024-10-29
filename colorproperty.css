@@ -1,0 +1,41 @@
+/* Comment : ctrl key(Hold) + / */
+
+/* Color Name */
+b{
+    color: red;
+}
+/* Hexa Decimal Number 
+    0 - 9 a-f
+    =16
+    00 : red
+    00 : green
+    00 : blue
+*/
+h5{
+    color: #ffb3b3;
+}
+/* RGB Color 
+    rgb(red (0-255),green (0-255),blue)
+*/
+h4{
+    color:rgb(255,255,255);
+}
+/* RGBA Color 
+  rgb(red (0-255),green (0-255),blue,alpha(0-1))
+*/
+h3{
+    color: rgba(255,0,0,0.3);
+}
+/* HSL Color
+    hsl(hue (0-360),saturation (0%-100%) (default 100%),lightness (0%-100%) (default 50%))
+*/
+h2{
+    color: hsl(0,100%,50%);
+}
+/* HSLA Color 
+    hsl(hue (0-360),saturation (0%-100%) (default 100%),lightness (0%-100%) (default 50%),alpha(0-1))
+
+ */
+h1{
+    color: hsla(0,100%,50%,0.5);
+}
