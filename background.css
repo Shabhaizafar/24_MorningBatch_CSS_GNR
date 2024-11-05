@@ -1,0 +1,79 @@
+body{
+    height: 600px;
+    background-color: red;    
+    /* background-color: #0000ff; */
+    /* background-image: url(); */
+    /* background-image: url(''); */
+    /* background-image: url("https://images.unsplash.com/photo-1490077476659-095159692ab5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D"); */
+    /* background-size: auto; */
+                /* width  height */
+    /* background-size: 250px 250px; */
+
+    /* background-size: 100% 100%; */
+
+                /* width */
+    /* background-size: cover; */
+
+                    /* Height */
+    /* background-size: contain; */
+
+
+    /* default */
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+
+    /* default*/
+                        /* X  Y */
+    /* background-position: 0px 0px; */
+    /* background-position: 200px 300px; */
+
+    /* background-position: 0% 0%; */
+    /* background-position: 70% 30%; */
+
+    /* background-position: left top; */
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: center; */
+    /* background-position: right top; */
+    /* background-position: right bottom; */
+
+}
+h2{
+    /* background-color: blue; */
+}
+
+div{
+    background-color: blue;
+    height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1490077476659-095159692ab5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D");
+    /* background-size: auto; */
+                /* width  height */
+    background-size: 250px 250px;
+    /* background-repeat: round; */
+                            /* X   Y */
+    /* background-repeat: repeat space; */
+    /* background-repeat: space repeat; */
+    /* background-repeat: round space; */
+
+                            /* only X  */
+    /* background-repeat: repeat-x; */
+                            /* only Y */
+    /* background-repeat: repeat-y; */
+
+
+
+
+}
+
+div{
+    height: ;
+}
+section{
+    height: ;
+}
