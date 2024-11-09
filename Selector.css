@@ -1,0 +1,53 @@
+/* Element Selector/Type Selector */
+h1{
+    color: red;
+}
+h2{
+    color: darkgoldenrod;
+}
+h3{
+    color: darkmagenta;
+}
+
+/* Id Selector  */
+#id1{
+    color: blue;
+}
+
+#id2{
+    color: burlywood;
+}
+
+/* Class Selector */
+.class1{
+    color: greenyellow;
+}
+#id3{
+    color: darkred;
+}
+
+
+/* 
+Selector : 
+Prioriry : 
+
+Id Selector  > class Selector > Element Selector 
+*/
+
+
+/* 
+
+CSS Type  : 
+
+1) inline CSS 
+2) internal CSS 
+3) external CSS
+
+
+
+inline CSS > internalCSS/external CSS (last priority)
+*/
+
+/* 
+inlineCSS > id Selector 
+*/
