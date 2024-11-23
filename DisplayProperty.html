@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        div{
+            /* display: block; */
+            /* display: inline; */
+            display: inline-block;
+
+
+            /* width: 200px; */
+            /* height: 200px; */
+            background-color: aqua;
+            /* margin: 100px; */
+            /* margin: auto; */
+            padding: 30px;
+        }
+        /* 
+            display : block 
+                - default width : 100%
+                - default height : content-size 
+                - width : changable
+                - height : changable 
+                - margin : all side workable
+                - margin : auto (working)
+                - padding : workable all side
+                - text-position : not fixed 
+
+                new line
+        */
+
+        /* 
+            display : inline 
+                - default width : content-size
+                - default height : content-size
+                - width : not changable
+                - height : not changable
+                - margin : working only left-right  (top-bottom : X)
+                - margin : auto not working
+                - padding : workable all side
+                - text-position :  fixed 
+
+                same line
+        */
+
+        /* 
+            display : inline-block
+                - default width : content-size
+                - default height : content-size
+                - width : changable
+                - height : changable
+                - margin : all side workable
+                - margin : auto not working
+                - padding : workable all side
+                - text-position : not fixed
+
+            same line
+        */
+        ul{
+            background-color: aqua;
+        }
+        li{
+            display: inline-block;
+            background-color: red;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>
+        Display
+    </div>
+    <div>
+        wert
+    </div> -->
+    <ul>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+        <li>Link</li>
+    </ul>
+</body>
+</html>
