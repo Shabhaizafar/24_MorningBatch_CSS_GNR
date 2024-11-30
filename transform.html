@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Property</title>
+    <style>
+        div{
+            width: 200px;
+            background-color: aqua;
+            height: 200px;
+            margin: 150px auto;
+
+            transition: all 2s;
+        }
+        .box1:hover{
+            /* Px */
+                            /* Only X */
+            /* transform: translate(100px); */
+                                /* X     Y */
+            /* transform: translate(-100px,-100px); */
+            /* transform: translateX(100px); */
+            /* transform: translateX(-100px); */
+            /* transform: translateY(100px); */
+            /* transform: translateY(-100px); */
+
+
+            /* Numeric */
+            /* default 1 */
+                            /* X,Y */
+            /* transform: scale(1.2); */
+            /* transform: scale(1.2,2.5); */
+            /* transform: scaleX(1.2); */
+            /* transform: scaleY(2); */
+
+            /* transform: scaleX(-1); */
+            /* transform: scaleY(-1); */
+            transform: scale(-1);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        TranslateX(100px)
+    </div>
+    <div>
+        Transform
+    </div>
+    
+</body>
+</html>
