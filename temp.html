@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Effect Clock</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f4f4f9;
+      font-family: Arial, sans-serif;
+    }
+
+    .clock-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border: 8px solid #333;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+    .hand {
+      position: absolute;
+      width: 4px;
+      height: 90px;
+      background: #333;
+      top: 10px;
+      transform-origin: bottom;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    /* Clockwise rotation */
+    .clock-container:hover.clockwise .hand {
+      animation: rotate-clockwise 2s linear infinite;
+    }
+
+    /* Anticlockwise rotation */
+    .clock-container:hover.anticlockwise .hand {
+      animation: rotate-anticlockwise 2s linear infinite;
+    }
+
+    @keyframes rotate-clockwise {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes rotate-anticlockwise {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Clock Container -->
+  <div class="clock-container clockwise" onclick="toggleDirection()">
+    <div class="hand"></div>
+  </div>
+
+  <script>
+    // JavaScript to toggle clockwise/anticlockwise on click
+    const clockContainer = document.querySelector('.clock-container');
+
+    function toggleDirection() {
+      if (clockContainer.classList.contains('clockwise')) {
+        clockContainer.classList.remove('clockwise');
+        clockContainer.classList.add('anticlockwise');
+      } else {
+        clockContainer.classList.remove('anticlockwise');
+        clockContainer.classList.add('clockwise');
+      }
+    }
+  </script>
+</body>
+</html>
