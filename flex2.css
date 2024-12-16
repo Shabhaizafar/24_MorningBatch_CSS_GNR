@@ -4,7 +4,8 @@
 }
 div{
     background-color: cadetblue;
-    width: 100%;
+    /* width: 100%; */
+    width: 800px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@ div{
 
     /* ------------------------------------------ */
     /* flex-wrap: nowrap; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
     /* ------------------------------------------ */
     /* flex-direction: row; */
@@ -42,11 +43,13 @@ div{
 }
 main{
     flex-grow: 1;
+    flex-basis: 120px;
 }
 .box1{
     background-color: lightcoral;
     /* flex-grow: 1; */
-    flex-basis: 100px;
+    /* flex-basis: 100px; */
+    /* flex-shrink: 10; */
 }   
 .box2{
     background-color: lightgray;
@@ -70,3 +73,10 @@ main{
 .box8{
     background-color: darkolivegreen;
 }   
+
+
+
+/* 
+    Sat : 8 to 9 PM
+    Sun : 7 to 9 PM
+*/

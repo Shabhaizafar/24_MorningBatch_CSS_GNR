@@ -1,0 +1,104 @@
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #1F2023;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    font-size: 32px;
+    font-family: verdana;
+    margin-bottom: 20px;
+}
+.clr{
+    color: #EC6090;
+}
+.underline{
+    text-decoration: underline;
+}
+/* ------------------ */
+.img-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+main{
+    background-color: #26282A;
+    flex-grow: 1;
+    flex-basis: 20%;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    gap: 20px;
+}
+.block5{
+    flex-basis: 45.2%;
+    flex-grow: 1;
+}
+.block6{
+    flex-grow: 1;
+}
+.block7{
+    flex-grow: 1;
+}
+/* ---------------------------------------- */
+.block-img{
+    height: 200px;
+    flex-grow: .7;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+.block-cntnt{
+    flex-grow: .3;
+    color: white;
+    font-family: Verdana;
+}
+.gry{
+    color: #5f6161;
+}
+article{
+    margin-bottom: 5px;
+    display: flex;
+}
+article b{
+    flex-grow: 1;
+}
+article span{
+    flex-grow: 1;
+    
+}
+.rgt-side{
+    text-align: right;
+}
+/* 
+ <aside class="block-cntnt">
+                    <article class="art1">
+                        <b>Fortnite</b>
+                        <span>4.8</span>
+                    </article>
+                    <article class="art2">
+                        <span class="gry">Sandbox</span>
+                        <span>2.3M</span>
+                    </article></aside>
+ */
+.block5 div{
+    display: flex;
+    gap: 20px;
+}
+.block-inner{
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
