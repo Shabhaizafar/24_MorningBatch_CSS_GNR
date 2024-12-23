@@ -71,3 +71,135 @@ input{
     color: white;
     font-size: 16px;
 }
+/* ------------------------------------------- */
+.js{
+    height: 500px;
+}
+.episodes{
+    padding: 0px 8%;
+}
+.main-tag{
+    height: 200px;
+    display: flex;
+    gap: 30px;
+}
+.main-tag main{
+    background-color: blue;
+    height: 100%;
+    flex-grow: 1;
+    border-radius: 20px;
+    padding: 25px;
+    display: flex;
+    gap: 15px;
+}
+.episodes .heading{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 40px;
+}
+.heading hr{
+    flex-grow: 1;
+    color: #F0F8FF;
+    border:1px solid #F0F8FF;
+}
+.heading h2{
+    padding: 15px 30px;
+    background-color: #F0F8FF;
+    border-radius: 30px;
+    font-family: verdana;
+}
+.fg-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.fg-2 img{
+    width: 100px;
+    border-radius: 20px;
+}
+.fg-2 button{
+    background-color: #0166CD;
+    border-radius: 20px;
+    border: none;
+}
+.fg-2 button a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.last-aside{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
+}
+.last-aside button{
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+}
+.last-aside a{
+    padding: 10px 12px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.last-aside button:hover{
+    background-color: #0166CD;
+}
+.fg-1{
+    flex-grow: 1;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.fg-1 section{
+    background-color: red;
+}
+.fg-1 section.dev img{
+    width: 30px;
+    height: 30px;
+}
+/* 
+<aside class="fg-1">
+                        <section>
+                            <article class="timer">
+                                <span>z</span>
+                                <span>50</span>
+                                <span>Minutes</span>
+                            </article>
+                            <article class="epi-num">
+                                <span>Episode</span>
+                                <button>15</button>
+                            </article>
+                        </section>
+                        <section>
+                            <a href="">
+                                Modern Vintage
+                            </a>
+                        </section>
+                        <section>
+                            <img src="https://templatemo.com/templates/templatemo_584_pod_talk/images/profile/woman-posing-black-dress-medium-shot.jpg" alt="">
+                            <div>
+                                <p>Elsa <img src="https://templatemo.com/templates/templatemo_584_pod_talk/images/verified.png" alt=""></p>
+                                <p>Influencer</p>
+                            </div>
+                        </section>
+                        <section>
+                            Lorem Ipsum dolor sit amet consectetur
+                        </section>
+                        <section>
+                            <div> 120k</div>
+                            <div>42.5k</div>
+                            <div>11k</div>
+                            <div>50k</div>
+                        </section>
+                    </aside>
+ */
