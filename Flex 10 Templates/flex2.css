@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    background-color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: sans-serif;
+    color: #444444;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    margin-top: 10px;
+}
+.flex-img{
+    padding: 0px 10%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+main{
+    background-color: aqua;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/* 
+<section class="flex-img">
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+            <main>
+                <img src="https://templatemo.com/templates/templatemo_406_flex/images/gallery/p1.jpg" alt="">
+            </main>
+        </section>
+*/
