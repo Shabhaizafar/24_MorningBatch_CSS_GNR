@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            background-color: aqua;
+            width: fit-content;
+            margin: auto;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        div{
+            width: 4px;
+            height: 50px;
+            display: inline-block;
+            animation-name: box;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            /* animation-timing-function: linear; */
+        }
+        @keyframes box {
+            from{
+                transform: translateY(0px);
+            }
+            to{
+                transform: translateY(20px);
+            }
+        }
+        main{
+            margin-bottom: 5px;
+        }
+        .red{
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+        main:last-child div:first-child{
+            animation-delay: 100ms;
+        }
+        main:last-child div:nth-child(2){
+            animation-delay: 200ms;
+        }
+        main:last-child div:nth-child(3){
+            animation-delay: 300ms;
+        }
+        main:last-child div:nth-child(4){
+            animation-delay: 400ms;
+        }
+        main:last-child div:nth-child(5){
+            animation-delay: 500ms;
+        }
+        main:last-child div:nth-child(6){
+            animation-delay: 600ms;
+        }
+        main:last-child div:nth-child(7){
+            animation-delay: 700ms;
+        }
+        main:last-child div:nth-child(8){
+            animation-delay: 800ms;
+        }
+        main:last-child div:nth-child(9){
+            animation-delay: 900ms;
+        }
+        main:last-child div:nth-child(10){
+            animation-delay: 1000ms;
+        }
+        main:last-child div:nth-child(11){
+            animation-delay:1100ms;
+        }
+        main:last-child div:nth-child(12){
+            animation-delay:1200ms;
+        }
+        main:last-child div:nth-child(13){
+            animation-delay:1300ms;
+        }
+        main:last-child div:nth-child(14){
+            animation-delay:1400ms;
+        }
+        main:last-child div:nth-child(15){
+            animation-delay:1500ms;
+        }
+        main:last-child div:last-child{
+            animation-delay: 1600ms;
+        }
+
+
+        /*  */
+        main:first-child div:first-child{
+            animation-delay: 100ms;
+        }
+        main:first-child div:nth-child(2){
+            animation-delay: 200ms;
+        }
+        main:first-child div:nth-child(3){
+            animation-delay: 300ms;
+        }
+        main:first-child div:nth-child(4){
+            animation-delay: 400ms;
+        }
+        main:first-child div:nth-child(5){
+            animation-delay: 500ms;
+        }
+        main:first-child div:nth-child(6){
+            animation-delay: 600ms;
+        }
+        main:first-child div:nth-child(7){
+            animation-delay: 700ms;
+        }
+        main:first-child div:nth-child(8){
+            animation-delay: 800ms;
+        }
+        main:first-child div:nth-child(9){
+            animation-delay: 900ms;
+        }
+        main:first-child div:nth-child(10){
+            animation-delay: 1000ms;
+        }
+        main:first-child div:nth-child(11){
+            animation-delay:1100ms;
+        }
+        main:first-child div:nth-child(12){
+            animation-delay:1200ms;
+        }
+        main:first-child div:nth-child(13){
+            animation-delay:1300ms;
+        }
+        main:first-child div:nth-child(14){
+            animation-delay:1400ms;
+        }
+        main:first-child div:nth-child(15){
+            animation-delay:1500ms;
+        }
+        main:first-child div:last-child{
+            animation-delay: 1600ms;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <main>
+            <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        <div class="green"></div>
+        </main>
+        <main>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="blue"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+        </main>
+    </section>
+</body>
+</html>
