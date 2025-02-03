@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        section{
+            width: 200px;
+            height: 200px;
+            /* border: 1px solid red; */
+            margin: 150px auto;
+            perspective: 100px;
+        }
+        main{
+            width: 100%;
+            height: 100%;
+            /* border: 1px solid black; */
+            transform: translateZ(-100px);
+            transform-style: preserve-3d;
+            animation-name: box;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes box {
+            0%{
+                rotate: 0deg;
+            }
+            20%{
+                rotate: 20deg;
+            }
+            40%{
+                rotate: 40deg;
+                transform: rotateY(-30deg);
+            }
+
+        }
+        div{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: blue;
+            font-size: 24px;
+            font-family: calibri;
+            transform-origin: top left;
+            position: absolute;
+        }
+        .front{
+            background-color: rgba(240, 128, 128, 0.484);
+            transform: translateZ(100px);
+        }
+        .back{
+            background-color: rgba(128, 240, 143, 0.484);
+            transform: translateZ(-100px);
+        }
+        .top{
+            background-color: rgba(152, 128, 240, 0.484);
+            transform: rotateX(90deg) translateY(-100px);
+        }
+        .bottom{
+            background-color: rgba(128, 240, 232, 0.484);
+            transform: rotateX(90deg) translateY(100px);
+            transform-origin: bottom;
+        }
+        .left{
+            background-color: rgba(240, 180, 128, 0.484);
+            transform: rotateY(90deg) translateX(-100px);
+        }
+        .right{
+            background-color: rgba(240, 128, 197, 0.484);
+            transform: rotateY(-90deg) translateX(100px);
+            transform-origin: top right;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <main>
+            <div class="front">front</div> 
+            <div class="back">back</div>
+            <div class="left">left</div>
+            <div class="right">right</div>
+            <div class="top">top</div>
+            <div class="bottom">bottom</div>
+           
+        </main>
+    </section>
+</body>
+</html>
