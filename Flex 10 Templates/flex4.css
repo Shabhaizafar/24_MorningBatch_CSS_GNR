@@ -1,0 +1,64 @@
+/* Univarsal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* list-style-type: none; */
+}
+div.container{
+    background-color: #1F2122;
+    /* temp  */
+    /* view Height */
+    /* height: 100vh; */
+    /* view Width */
+    /* width: 100vw; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/* Main */
+main{
+    background-color: #26292B;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+section{
+    background-color: #1F2122;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* section-1 */
+.section-1{
+    padding: 80px 50px;
+    color: white;
+    font-family: calibri;
+    display: flex;   
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-image: url('banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section-1 p{
+    font-size: 20px;
+}
+.section-1 h1{
+    font-size: 56px;
+    line-height: 60px;
+}
+.section-1 h1 span{
+    color: #EC6090;
+}
+.section-1 a{
+    color: white;
+    text-decoration: none;
+    background-color: #EC6090;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
