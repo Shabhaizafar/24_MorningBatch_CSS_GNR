@@ -187,8 +187,97 @@ section{
     color: white;
 }
 .section-2 .aside-s23{
-    background-color: aqua;
+    display: flex;
+    gap: 10px;
 }
-.section-2 .aside-s24{
-    background-color: coral;
+
+.aside-s23 article{
+    background-color: #26292B;
+    flex-grow: 1;
+    border-radius: 20px;
+}   
+.aside-s23>article:first-child{
+    flex-grow: 2;
+    display: flex;
+    gap: 8px;
 }
+.section-2 .aside-s23>article article{
+    flex-grow: 1;
+    border-radius: 20px;
+    background-color: #26292B;
+    padding-bottom: 20px;
+}
+.section-2 .aside-s23>article article div:first-child{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-2 .aside-s23 article img{
+    border-radius: 20px;
+}
+.section-2 .aside-s23 article article div:last-child{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 4px;
+}
+.section-2 .aside-s23 article article div:last-child span{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*  */
+.section-2 .aside-s23 .lastflex{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.section-2 .aside-s23 .lastflex{
+    flex-grow: 1;
+    border-radius: 20px;
+    background-color: #26292B;
+    padding-bottom: 20px;
+}
+.section-2 .aside-s23 .lastflex div:first-child{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-2 .aside-s23 .lastflex img{
+    border-radius: 20px;
+}
+.section-2 .aside-s23 .lastflex div:last-child{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 4px;
+}
+.section-2 .aside-s23 .lastflex div:last-child span{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* 
+ <aside class="aside-s24">
+                    <a href="#">Discover Popular</a>
+                </aside>
+ */
+ .aside-s24{
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .aside-s24 a{
+    text-decoration: none;
+    color: white;
+    background-color: #EC6090;
+    padding: 15px 30px;
+    position: absolute;
+    border-radius: 30px;
+    font-family: sans-serif;
+ }
