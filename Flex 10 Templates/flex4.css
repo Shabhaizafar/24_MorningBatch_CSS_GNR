@@ -261,11 +261,6 @@ section{
     color: white;
 }
 
-/* 
- <aside class="aside-s24">
-                    <a href="#">Discover Popular</a>
-                </aside>
- */
  .aside-s24{
     background-color: red;
     position: relative;
@@ -281,3 +276,60 @@ section{
     border-radius: 30px;
     font-family: sans-serif;
  }
+/* ------------------------------- */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s3-heading h3{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #EC6090;
+}
+.s3-heading h3 span{
+    text-decoration: underline;
+    color: white;
+}
+
+.s3-content article{
+    display: flex;
+    gap: 30px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #26292B;
+}
+.s3-content article aside:first-child{
+    flex-grow: 0;
+}
+.s3-content article aside{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-family: sans-serif;
+}
+.s3-content article aside img{
+    border-radius: 20px;
+}
+.s3-content article aside b{
+    color: white;
+}
+.s3-content article aside span{
+    color: gray;
+}
+.s3-content article aside a{
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    border: 1px solid gray;
+    text-decoration: none;
+}
+.s3-content article:nth-child(2) aside a{
+    color: #EC6090;
+    border-color: #EC6090;
+}
+.s3-content article:nth-child(2) aside a:hover{
+    background-color: white;
+}
