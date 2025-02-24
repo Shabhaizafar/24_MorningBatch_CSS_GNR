@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: darkblue;
+    height: 300px;
+    display: grid;
+
+    /* default */
+    /* grid-template-columns: auto; */
+    /* grid-template-columns: 100px; */
+    /* grid-template-columns: 100px 200px; */
+    /* grid-template-columns: 100px auto; */
+    /* grid-template-columns: 100px 200px 400px; */
+    /* grid-template-columns: 10% 20% 40%; */
+
+    /* grid-template-columns: auto auto; */
+    /* grid-template-columns: auto auto auto; */
+
+    grid-template-columns: 1fr 1fr 3fr;
+
+
+    /* 
+        1fr =  100% / 1 = 100%
+
+        1fr = 100% / 2 = 50%
+
+        1fr = 100% / 5 = 20%
+    */
+    /* default */
+    /* grid-template-rows: auto; */
+    /* grid-template-rows: 100px 300px 50px 100px 50px; */
+    grid-template-rows: 1fr 3fr .5fr 1fr .5fr;
+
+    /* column-gap: 20px; */
+    /* row-gap: 30px; */
+        /* row  column */
+    /* gap: 20px 30px; */
+
+}
+.box1{
+    background-color: lightblue;
+}
+.box2{
+    background-color: lightgoldenrodyellow;
+}
+.box3{
+    background-color: lightseagreen;
+}
+.box4{
+    background-color: lightsalmon;
+}
+.box5{
+    background-color: lightslategrey;
+}
+.box6{
+    background-color: darkolivegreen;
+}
+.box7{
+    background-color: darkslategray;
+}
+.box8{
+    background-color: darksalmon;
+}

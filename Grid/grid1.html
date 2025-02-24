@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 4px solid rgb(74, 22, 22);
+            padding: 25px;
+            height: 800px;
+            font-family: verdana;
+            font-size: 32px;
+            color: white;
+            text-align: center;
+            display: grid;
+            gap: 25px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: .8fr 1fr 1fr 1.4fr .5fr;
+            grid-template-areas: 
+            "e e"
+            "b c"
+            "b d"
+            "a a"
+            "f f";
+        }
+        header{
+            background-color: rgb(50, 14, 86);
+            align-content: center;
+            grid-area: a;
+        }
+        article{
+            background-color: rgb(50, 14, 86);
+            grid-area: b;
+            align-content: center;
+        }
+        .box1{
+            background-color: rgb(50, 14, 86);
+            grid-area: c;
+            align-content: center;
+        }
+        .box2{
+            background-color: rgb(50, 14, 86);
+            grid-area: d; 
+            align-content: center;
+        }
+        main{
+            background-color: rgb(50, 14, 86);
+            grid-area: e;
+            align-content: center;
+        }
+        footer{
+            background-color: rgb(50, 14, 86);
+            grid-area: f;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>Header</header>
+        <article>Article</article>
+        <div class="box1">Text1</div>
+        <div class="box2">Text2</div>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>
+
+<!-- 
+5x2
+4x2
+3x2
+2x2
+1x2
+5x1
+-->
