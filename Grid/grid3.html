@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            border: 4px solid rgb(83, 20, 33);
+            padding: 15px;
+            color: white;
+            font-family: Impact;
+            font-size: 24px;
+            height: 800px;
+            display: grid;
+            gap: 20px;
+            grid: / ;
+            /* grid-template-columns: 1fr 1fr;
+            grid-template-rows: .8fr 1fr 1fr 1.5fr .5fr; */
+
+            /* grid-template-columns: 1fr 1fr 1fr 1fr ; */
+            grid-template-columns: repeat(3,1fr);
+
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+
+            text-align: center;
+        }
+        header{
+            background-color: rgb(56, 18, 86);
+            /* grid-column: 1/span 2;  combine till span value */
+            /* grid-column: 1/3;   end given value */
+            /* grid-column: 1/span 2;
+            grid-row: 4; */
+            /* grid-column-start: 2; */
+            /* grid-column-end: 4; */
+            /* grid-row: 1/span 2; */
+            /* grid-row: 1/4; */
+            /* grid-row-start: 2;
+            grid-row-end: 6; */
+
+            align-content: center;
+        }
+        article{ 
+            background-color: rgb(56, 18, 86);
+            /* grid-column: 1;
+            grid-row: 2/span 2; */
+            align-content: center;
+            order: 1;
+        }
+        .box1{
+            background-color: rgb(56, 18, 86);
+            align-content: center;
+        }
+        .box2{
+            background-color: rgb(56, 18, 86);
+            align-content: center;
+        }
+        main{
+            background-color: rgb(56, 18, 86);
+            /* grid-column: 1/span 2;
+            grid-row: 1; */
+            align-content: center;
+            order: -1;
+        }
+        footer{
+            background-color: rgb(56, 18, 86);
+            /* grid-column: 1/span 2; */
+            align-content: center;
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <header>Header</header>
+        <article>Article</article>
+        <div class="box1">Text1</div>
+        <div class="box2">Text2</div>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </section>
+
+</body>
+</html>
