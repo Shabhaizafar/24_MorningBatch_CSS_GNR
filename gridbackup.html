@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        section{
+            border: 4px solid rgb(90, 37, 47);
+            padding: 15px;
+            height: 800px;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: .8fr 1fr 1fr 1.5fr .5fr;
+            grid-template-areas: 
+            "e e"
+            "b c"
+            "b d"
+            "a a"
+            "f f";
+        }
+        header,article,div,main,footer{
+            background-color: rgb(41, 10, 84);
+            color: white;
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            align-content: center;
+        }
+        header{
+            grid-area: a;
+        }
+        article{
+            grid-area: b;
+        }
+        .box1{
+            grid-area: c;
+        }
+        .box2{
+            grid-area: d;
+        }
+        main{
+            grid-area: e;
+        }
+        footer{
+            grid-area: f;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <header>Header</header>
+        <article>Article</article>
+        <div class="box1">Text1</div>
+        <div class="box2">Text2</div>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </section>
+</body>
+</html>

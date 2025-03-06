@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reflect Property</title>
+    <style>
+        img{
+            display: block;
+            margin: 200px auto;
+            width: 200px;
+        }
+        img:hover{
+            /* width: 300px; */
+            /* -webkit-box-reflect: right; */
+            /* -webkit-box-reflect: left; */
+            /* -webkit-box-reflect: above; */
+            /* -webkit-box-reflect: below; */
+        }
+        button{
+            background-color: darkslategrey;
+            color: white;
+            font-size:24px;
+            border: none;
+        }
+        button:hover ~img{
+            -webkit-box-reflect: below;   
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button>below</button>
+        <img src="https://images.unsplash.com/photo-1490077476659-095159692ab5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+
+</body>
+</html>
