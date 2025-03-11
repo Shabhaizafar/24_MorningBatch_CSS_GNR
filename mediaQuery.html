@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div.container{
+         
+            background-color: gainsboro;
+        }
+        div.heading{
+            background-color: rgb(0, 119, 255);
+            color:white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        div.home{
+            display: grid;
+            padding: 30px 50px;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        div.home section{
+            display: grid;
+            text-align: center;
+            gap: 20px;
+        }
+        
+        div.home section h3{
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        div.home section:nth-child(3) article{
+            align-content: end;
+        }
+        div.home img{
+            width: 50%;
+        }
+        div.content{
+            padding: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            text-align: justify;
+        }
+        @media screen and (max-width:700px){
+            div.home{
+            grid-template-columns: 1fr;
+        }        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Our Services</h1>
+        </div>
+        <div class="home">
+            <section>
+                <article>
+                    <img src="1.png" alt="">
+                </article>
+                <article>
+                    <h3>Food</h3>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <img src="https://icons.iconarchive.com/icons/icons8/ios7/512/Music-Music-icon.png" alt="">
+                </article>
+                <article>
+                    <h3>Music</h3>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <img src="2.png" alt="">
+                </article>
+                <article>
+                    <h3>Film</h3>
+                </article>
+            </section>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio impedit, perspiciatis aliquid non magnam delectus minus praesentium magni reiciendis officiis, culpa iste enim libero? Dicta, ullam. Repudiandae eaque nihil amet commodi vero veniam facilis cum animi maxime placeat, ad illo recusandae voluptate consequuntur, accusantium error modi corporis? Sint ab tempora necessitatibus! Aspernatur ratione ab, accusamus recusandae blanditiis inventore enim labore ea, quis debitis mollitia distinctio molestiae praesentium temporibus laboriosam nostrum provident numquam officia voluptatem quasi nisi laudantium voluptates. Quidem illum deserunt eum commodi reprehenderit dignissimos quod rerum exercitationem nostrum, quae facilis nam, delectus repudiandae ut dolorum ipsum nobis natus? Delectus dolor asperiores rerum id. Pariatur, iste totam neque optio quam sit id molestias libero ratione molestiae corporis tempora adipisci architecto natus earum rerum provident similique laudantium deleniti impedit repellendus? Iure sapiente fugiat sint itaque neque odit cupiditate sequi? Molestiae omnis nam id, at amet odit ab, porro, aliquam atque enim voluptatum explicabo? Ratione distinctio id doloremque sit perspiciatis quis facere quisquam laborum fugiat tenetur perferendis ullam vero delectus autem natus tempora architecto atque, nesciunt ad labore corrupti repellendus molestias ea itaque! Culpa, nisi enim perferendis minima quaerat tempora illum, repellendus magnam animi fuga doloremque ea eaque. Reprehenderit, soluta eius?</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- 
+https://miro.medium.com/v2/resize:fit:1280/1*gVtwcBNnqeG2CRlNjl-E7w.gif
+ -->
