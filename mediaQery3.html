@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        @media screen {
+            main {
+                background-color: red;
+                height: 600px;
+                display: grid;
+                gap: 10px;
+                grid-template-columns: 100px repeat(3, 1fr) 200px;
+            }
+            div {
+                background-color: aqua;
+                color: blue;
+                font-size: 24px;
+                font-family: cursive;
+            }
+        }
+        @media screen and (min-width:768px) and (max-width:1000px){
+            main {
+                background-color: blue;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            div {
+                background-color: lightcoral;
+                color: lightseagreen;
+                flex-grow: 1;
+            }
+        }
+        @media screen and (max-width:768px) {
+            main {
+                background-color: black;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            div {
+                background-color:yellowgreen;
+                color: lightseagreen;
+            }
+            div:nth-child(2n){
+                flex-grow: 1;
+                flex-basis: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="box4">box4</div>
+        <div class="box5">box5</div>
+        <div class="box6">box6</div>
+        <div class="box7">box7</div>
+        <div class="box8">box8</div>
+    </main>
+</body>
+
+</html>
