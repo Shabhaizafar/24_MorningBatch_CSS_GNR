@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* psuedo Class  */
+        :root{
+            color: red;
+        }
+
+        p{
+            color: red;
+            opacity: 0.4;
+        }
+        /* Psuedo Element */
+        p::first-line{
+            color: aqua;
+        }
+        p::first-letter{
+            color: blue;
+            font-size: 56px;
+        }
+        ::placeholder{
+            color: red;
+        } 
+
+
+        p::before{
+            content: 'sdfgh ';
+        }
+        p::after{
+            content: ' Nothing';
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Enter">
+    <h1>asdfg</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam tempore facilis vel necessitatibus illo corrupti magnam corporis eos dolore et assumenda veritatis molestiae, ipsa sint enim nihil! Numquam, odit nisi!</p>
+</body>
+</html>

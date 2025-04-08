@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        body{
+            counter-reset: heading;
+        }
+        h2::before{
+            counter-increment: heading;
+            content: counter(heading) '. ';
+        }
+    </style> -->
+
+    <style>
+        body{
+            counter-reset: heading;
+        }
+        h2::before{
+            counter-increment: heading;
+            content: counter(heading) '. ';
+        }
+        h2{
+            counter-reset: heading2 ;
+        }
+        h3::before{
+            counter-increment: heading2;
+            content: counter(heading) '.' counter(heading2) '. ';
+        }
+    </style>
+</head>
+<body>
+    <h2>Heading</h2>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h2>Heading</h2>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h2>Heading</h2>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h2>Heading</h2>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h2>Heading</h2>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+    <h3>sub-Heading</h3>
+</body>
+</html>
