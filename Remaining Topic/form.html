@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-image: url("https://wallpapershome.com/images/pages/pic_h/12465.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            background-color: rgba(255, 255, 255, 0.644);
+            width: 30%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            backdrop-filter: blur(5px);
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.644);
+        }
+        label{
+            font-size: 20px;
+            color: darkslategrey;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        input{
+            width: 100%;
+            font-size: 24px;
+            /* padding: 5px; */
+            padding: 5px 10px;
+            border: none;
+            border-bottom: 2px solid transparent;
+            background-color: rgba(255, 255, 255, 0.438);
+            color: darkslategrey;
+            border-radius: 5px;
+        }
+
+        input:focus{
+            outline: 0px;
+            border-bottom: 2px solid darkslategrey;
+        }
+
+        input[type='submit']{
+            background-color: rgb(44, 124, 245);
+            color: navy;
+            border-radius: 5px;
+        }
+        input[type='submit']:hover{
+            background-color: rgb(26, 94, 196);
+            color: white;
+        }
+
+        ::placeholder{
+            color: rgba(47, 79, 79, 0.534);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">First Name :</label>
+            <input type="text" placeholder="Enter something">
+        </div>
+        <div>
+            <label for="">Last Name :</label>
+            <input type="text" placeholder="Enter something">
+        </div>
+        <div>
+            <label for="">Password :</label>
+            <input type="password" placeholder="Enter something">
+        </div>
+        <div>
+            <br>
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+</body>
+</html>
